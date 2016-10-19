@@ -1,11 +1,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre');
+@import url('https://fonts.googleapis.com/css?family=Kanit:100,300|Proza+Libre');
 
 body {
   padding-top: 70px;
-  background: #D8D8D8;
-  color: #791e9e;
+  background: #C4BFC4;
+  color: #152B5E;
+  font-family: 'Kanit', sans-serif;
 }
+
+a {
+  color: #3B393B;
+}
+
 
 .article-title, .article-body {
   padding-left: 0.7em;
@@ -13,12 +21,12 @@ body {
 
 .article-title {
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.2em;
   margin-bottom: 0.8em;
 }
 
 .article-body {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 #new-article-btn {
@@ -30,7 +38,7 @@ body {
 }
 
 .article-detail-title {
-  font-size: 4em;
+  font-size: 3.0em;
   margin-bottom: 40px;
 }
 
@@ -73,14 +81,20 @@ body {
 }
 
 .comment-body, .comment-time {
-  margin-left: 2em;
+  margin-left: 1.5em;
 }
 
+
 .comment-body {
-  font-size: x-large;
+  font-size: large;
 }
 
 .comment-time {
   font-style: italic;
-  font-size: large;
+  font-size: small;
+}
+
+.navbar-brand {
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: 600;
 }
